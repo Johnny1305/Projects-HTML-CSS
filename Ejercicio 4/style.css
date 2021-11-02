@@ -1,0 +1,32 @@
+#tabla {
+	margin:150px auto;
+	width:600px;
+	
+}
+
+table {
+	background:white;
+	text-align:left;
+	border-collapse:collapse;
+	width:100%;
+	
+}
+
+th, td {
+	border:solid 2px #797D7F;
+	padding:10px;
+}
+
+thead {
+	background-color:orange;
+	border-bottom:solid 2px #0F362D;
+	font-size:30px;
+	text-align:center;
+	color:white;
+	
+}
+
+tr:hover td{
+	background-color:orange;
+	color:white;
+}
