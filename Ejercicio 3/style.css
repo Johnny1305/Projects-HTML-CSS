@@ -1,0 +1,32 @@
+#enlace1 { 
+padding:10px; 
+font-family:Tahoma; 
+width:200px; 
+height:200px;
+font-size:20px;
+
+}
+
+a:link {
+color:red;
+text-decoration:none;	
+
+}
+a:visited {
+color:yellow;
+text-decoration:line-through;
+	
+}
+a:hover {
+color:orange;
+text-decoration:underline; 
+	
+}
+
+div {
+	background-color:#ffffaa;
+	background-image:url("https://www.jasoft.org/Blog/image.axd?picture=/2017/css3logo.png");
+	background-repeat:no-repeat;
+	background-position:50% 50%
+	
+}
