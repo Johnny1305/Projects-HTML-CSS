@@ -1,0 +1,53 @@
+table {
+	background:white;
+	text-align:center;
+	border-collapse:collapse;
+	width:100%;
+}
+
+body{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 2000px auto;
+	background-image: url("https://moodle.iescanovas.es/pluginfile.php/2630/course/overviewfiles/seguridadsmr.jpg");
+}
+
+#tabla {
+	margin:150px auto;
+	width:600px;
+}
+
+h1 {
+  text-align: center;
+	color: white;
+}
+
+th, td {
+	border:solid 2px #797D7F;
+	padding:10px;
+}
+
+#sered{
+	  background-color: red;
+}
+
+#aplw{
+    background-color: green;
+}
+
+#segi{
+    background-color: #0004FF;
+}
+
+#hlc{
+    background-color: #FF00FF;
+}
+
+#sopre{
+    background-color: #FFD500;
+}
+
+#empre{
+  background-color: #00FFC5;
+}
