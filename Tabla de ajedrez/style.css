@@ -1,0 +1,40 @@
+h1{
+  text-align:center;
+  text-shadow: 10px 10px 20px #FF0000;
+  background-color: black;
+  width: auto;
+  color: white;
+}
+
+h4{
+ text-align: center;
+ background-color: black;
+ width: auto;
+ color: white;
+}
+
+body{
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url("https://fondosmil.com/fondo/65791.jpg");
+}
+
+#prueba1{
+    color:white;
+}
+
+#prueba2{
+  background-color: #ffffff;
+}
+
+#texto {
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+#tabla{
+  margin:150px auto;
+  	width:400px;
+}
