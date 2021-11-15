@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>
+      Formularios
+    </title>
+    <link rel="stylesheet" type="text/css"
+      href="style.css" />
+  </head>
+  <body>
+    <marquee behavior="alternate"><b>
+      Formularios
+      <b>
+    </marquee>
+    <div id="formulario">
+      <form name="matriculaciónASIR">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" size="20" autofocus required/>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" size="20" autofocus required/>
+
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexoM" name="sexo"
+          value="M" />
+        <label for="sexoM">M</label>
+        <input type="radio" id="sexoV" name="sexo"
+          value="V" />
+        <label for="sexoV">H</label>
+        <br>
+        <br>
+        <label for="nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="idfecha" name="fecha" min="1920-01-01" max="2050-12-31"
+          autofocus required />
+        <br>
+        <br>
+        <label for="matriculas">Escoge los m&oacute;dulos en los que te matriculas</label>
+        <br>
+        <br>
+        <div id="izquierda">
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Fundamentos de Hardware</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Gesti&oacute;n de Bases de Datos</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Implantaci&oacute;n de Sistemas Operativos</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Planificaci&oacute;n y Administraci&oacute;n de Redes</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Lenguajes de Marcas y Sistemas de Gesti&oacute;n de Informaci&oacute;n</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Formaci&oacute;n y Orientaci&oacute; Laboral</label>
+          <br>
+          <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+          <label for="matriculas">Proyecto de Administraci&oacute;n de Sistemas Inform&aacute;ticos en Red</label>
+        </div>
+        <br>
+        <div id="derecha">
+          <div id="derecha2">
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Servicio de Red e Internet</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Administraci&oacute;n se Sistemas Operativos</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Implantaci&oacute;n de Aplicaciones Web</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Adminitraci&oacute;n de Sistemas Gestores de Bases de Datos</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Seguridad y Alta Disponibilidad</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Empresa e Iniciativa Emprendedora</label>
+            <br>
+            <input type="checkbox" id="matriculas" name="aceptacion" value="S" />
+            <label for="matriculas">Formaci&oacute;n en Centros de Trabajo</label>
+          </div>
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <label for="observaciones">Estudios Previos</label>
+      <br>
+      <textarea id="observaciones" name="observacionesarea" rows="2" cols="50" placeholder="Indica sus estudios realizados"autofocus required ></textarea>
+      <br>
+      <br>
+      <form name="matriculaciónASIR">
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+      </form>
+    </div>
+
+
+  </body>
+</html>
