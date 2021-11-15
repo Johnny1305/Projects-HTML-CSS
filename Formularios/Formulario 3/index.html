@@ -1,0 +1,71 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario 3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>
+      Ejercicio de Formulario
+    </h1>
+    <h2>
+      Rellene los siguientes datos:
+    </h2>
+  <form>
+    <div class="form-group">
+      <label id="prueba">Apellidos y Nombre:</label>&nbsp;
+      <input type="text" size="100" required class="form-control" name="nombre" autofocus required>
+    </div>
+    <div class="form-group">
+      <label id="prueba">Email:</label>&nbsp;
+      <input type="mail" required class="form-control" name="email" autofocus required>
+    </div>
+      <label id="prueba2" for="Actividad">Actividad:</label>&nbsp;
+    <div id="actividades">
+      <input type="radio" id="activo" name="xd"
+        value="V" />
+        <label for="activo">Activo/a</label><br>
+        <input type="radio" id="sedentario" name="xd"
+        value="V" />
+      <label for="sedentario">Sedentario/a</label>
+    </div>
+    <br>
+    <br>
+      <p>
+        Seleccione un Idioma:
+        <select autofocus required>
+          <optgroup label="Idiomas">
+            <option>Kilingo</option>
+            <option>Valyrio</option>
+            <option disabled>Parsel</option>
+            <option>Interlingua</option>
+            <option>Na'vi</option>
+          </optgroup>
+        </select>
+      </p>
+        <label id="pobis" for="fobias">Indique Fobias:</label>
+        <div id="actividades">
+        <input type="checkbox" id="fobia" name="fb"
+        value="V" />
+        <label for="fobia">Crometofobia</label><br>
+        <input type="checkbox" id="fobia" name="fb"
+        value="V" />
+        <label for="fobia">Sofofobia</label><br>
+        <input type="checkbox" id="fobia" name="fb"
+        value="V" />
+        <label for="fobia">Dipsofobia</label>
+      </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="form-group">
+      <label id="prueba">Contraseña:</label>&nbsp;
+      <input type="password" required class="form-control" name="contraseña">
+    </div>
+    <br>
+    <button type="submit" id="boton" autofocus>Enviar</button>
+  </form>
+  </body>
+</html>
