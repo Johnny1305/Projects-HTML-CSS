@@ -1,0 +1,51 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Informaci&oacute;n sobre el Producto</h1>
+    <div id="capa1">
+      <form>
+        <fieldset id="rosa">
+          <legend id="datos">Datos B&aacute;sicos</legend>
+          <label id="negro" for="nombre">Nombre</label><br>
+          <input type="text" id="nombre" size="50" autofocus required/>
+          <br>
+          <label id="negro" for="Marca">Marca</label><br>
+          <input type="text" id="Marca" size="20" autofocus required/>
+          <br>
+          <br>
+          <label id="negro" for="descripcion">Descripci&oacute;n</label>
+          <br>
+          <textarea id="descripcion" name="observacionesarea" rows="5" cols="50" autofocus required ></textarea>
+          <br>
+          <br>
+          <label id="negro" for="foto">Foto</label>
+          <input type="file" id="foto"/>
+          <br>
+          <br>
+          <input type="checkbox" id="contador" value="S"/>
+          <label id="negro" for="contador">Añadir Contador de Visitas</label>
+        </fieldset>
+        <br>
+        <fieldset id="rosita">
+              <legend id="datos">Datos Econ&oacute;micos</legend>
+            <label for="precio">Precio</label> <input type="text" id="presio" size="1"/> <label for="euro">€</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="impuesto">Impuestos</label><input type="number" id="impuesto" min="0" step="1" value="0" autofocus required/>
+            <br>
+            <br>
+            <label for="promo">Promoci&oacute;n</label><br>
+            <input type="radio" id="ninguno" name="xd"
+              value="N" />
+            <label for="ninguno">Ninguno</label><br>
+            <input type="radio" id="transporte" name="xd"
+              value="V" />
+            <label for="sexoV">Transporte Gratuito</label><br>
+            <input type="radio" id="descuento" name="xd"
+              value="V" />
+            <label for="descuento">Descuento 10%</label>
+        </fieldset>
+      </form>
+  </body>
+</html>
