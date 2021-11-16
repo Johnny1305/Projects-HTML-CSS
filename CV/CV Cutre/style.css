@@ -1,0 +1,95 @@
+#mifoto {
+  width: 210px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 120px;
+
+}
+
+
+.cabecera {
+  width: 1000px;
+  height: 200px;
+
+}
+
+
+#indice {
+  margin-left: 450px;
+  margin-right: 450px;
+
+}
+
+h2 {
+  margin-left: 680px;
+  margin-right: 650px;
+  font-size: 45px
+}
+
+#datos {
+  margin-left: 450px;
+  margin-right: 600px;
+
+}
+
+#general {
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+#legend {
+  background-color: grey;
+
+}
+
+
+#subindice {
+  text-align: center;
+  font-family: new times roman;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+#indice {
+  margin-left: 700px;
+  margin-right: 700px;
+
+}
+  /* Animacion Boton */
+
+.botonpersonalizado {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FF00A6;
+    border-radius: 6px;
+    border: 2px solid #FF007C;
+    margin-left: 900px;
+    margin-right: 600px;
+
+}
+
+.botonpersonalizado:hover {
+    color: #FF00F3;
+    background-color: #ffffff;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+#scrollToTopBtn {
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  color: white;
+  cursor:pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+}
