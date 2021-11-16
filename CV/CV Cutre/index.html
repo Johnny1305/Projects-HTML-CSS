@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Curr&iacute;culum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <a name="inicio"/>
+        <center>
+          <img src="cabecera.png" class="cabecera">
+        </center>
+    </header>
+    <div id="principal">
+      <img src="foto.jpg" id="mifoto"/>
+    </div>
+    <br>
+      <div id="indice"/>
+        <fieldset>
+          <legend id="subindice"><b>&Iacute;ndice</b></legend>
+            <ul>
+              <li><b><a href="#datosgenerales">Datos Generales</b></a></li>
+              <li><b><a href="#informacion">Sobre Mi</b></a></li>
+              <li><b><a href="#formacion">Formaci&oacute;n Acad&eacute;mica</b></a></li>
+            </ul>
+          </fieldset>
+      </div>
+    <div>
+      <center>
+      <h2>
+        𝕵𝖔𝖓𝖆𝖙𝖍𝖆𝖓 𝕽𝖆𝖒𝖔𝖘 𝕭𝖊𝖑𝖑𝖎𝖉𝖔
+      </h2>
+    </center>
+      <br>
+    </div>
+    <div id="datos">
+      <fieldset>
+        <legend id="legend">Datos Generales</legend>
+        <ul id="datosgenerales">
+          <li><b>Nombre:</b>&nbsp; Jonathan Ramos Bellido</li>
+          <li><b>D.N.I:</b>&nbsp; 48192722 V</li>
+          <li><b>Fecha de Nacimiento:</b>&nbsp; 13/05/2004</li>
+          <li><b>Domicilio:</b>&nbsp; C/La Hoz, 48</li>
+          <li><b>Localidad:</b>&nbsp; El Rubio</li>
+          <li><b>Provincia:</b>&nbsp; Sevilla</li>
+          <li><b>C&oacute;digo Postal:</b>&nbsp; 42568</li>
+          <li><b>Tel:</b>&nbsp; +34 657 30 79 45</li>
+          <li><b>Email:</b>&nbsp; jonathan.ramos.business@gmail.com</li>
+        </ul>
+      </fieldset>
+    </div>
+    <br>
+    <div id="general">
+      <fieldset id="informacion">
+        <legend id="legend">Sobre M&iacute;</legend>
+        <p>Tengo un car&aacute;cter de hombre emprendedor, porque en los negocios o actividades laborales, suelo ser muy
+        din&aacute;mico, responsable, puntual, puedo llevar la responsabilidad de un equipo de personas, y
+      sobre todo motivador, etc.</p>
+      </fieldset>
+    </div>
+    <br>
+    <div id="general">
+      <fieldset>
+        <legend id="legend">Formaci&oacute;n Acad&eacute;mica</legend>
+        <ul id="formacion">
+          <li><b>Estudios B&aacute;sicos</b></li>
+            <ul>
+              <li>Colegio Nacional "Carmen Borrego" El Rubio. 2015</li>
+            <br>
+            </ul>
+          <li><b>Estudios Secundaria</b></li>
+            <ul>
+              <li>Instituto I.E.S Don Jos&eacute; Jurado Espada, El Rubio. 2016 - 2020</li>
+            </ul>
+        </ul>
+      </fieldset>
+    </div>
+    <br>
+    <br>
+    <a class="botonpersonalizado" href="#inicio">Ir a Inicio</a>
+    <footer>
+      <button id="scrollToTopBtn">👆</button>
+      <script>
+      var Btn = document.getElementById("scrollToTopBtn");
+      var rootElement = document.documentElement;
+      function scrollToTop() {
+
+        rootElement.scrollTo({
+          top: 0,
+          behavior: "smooth"
+
+        })
+      }
+      Btn.addEventListener("click", scrollToTop);
+    </script>
+    </footer>
+  </body>
+</html>
