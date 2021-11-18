@@ -32,3 +32,8 @@ label{
   text-align: right;
   line-height: 60px;
 }
+
+body {
+  width: 1000px;
+  margin:auto;
+}
