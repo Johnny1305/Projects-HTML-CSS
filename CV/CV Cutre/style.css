@@ -1,47 +1,77 @@
+/* Diseño de la Foto */
+
 #mifoto {
   width: 210px;
-  float: right;
-  margin-right: 200px;
-  margin-top: 120px;
+  border:3px solid #FF0000;
+  border-radius: 10px;
 
 }
 
+/* Diseño de los fieldset */
+
+fieldset {
+  border-radius: 10px;
+}
+
+/* Diseño de la cabecera */
 
 .cabecera {
-  width: 1000px;
-  height: 200px;
+  width: 700px;
+  height: 250px;
+
 
 }
 
-
-#indice {
-  margin-left: 450px;
-  margin-right: 450px;
-
-}
+/* Diseño del Título */
 
 h2 {
-  margin-left: 680px;
-  margin-right: 650px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 45px
 }
 
+#titulo {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+/* Diseño de los Datos */
+
 #datos {
-  margin-left: 450px;
-  margin-right: 600px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  align-items: center;
 
 }
+
+table {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Diseño de Sobre Mí */
 
 #general {
-  margin-left: 450px;
-  margin-right: 450px;
+
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* Diseños de los Legend */
 
 #legend {
   background-color: grey;
-
+  font-size: 25px;
 }
 
+/* Indice del Currículoum */
 
 #subindice {
   text-align: center;
@@ -51,8 +81,9 @@ h2 {
 }
 
 #indice {
-  margin-left: 700px;
-  margin-right: 700px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
   /* Animacion Boton */
@@ -63,33 +94,35 @@ h2 {
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    background-color: #FF00A6;
+    background-color: #000000;
     border-radius: 6px;
-    border: 2px solid #FF007C;
-    margin-left: 900px;
-    margin-right: 600px;
+    border: 2px solid ;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .botonpersonalizado:hover {
-    color: #FF00F3;
+    color: #000000;
     background-color: #ffffff;
 }
 
-footer {
-  display: flex;
-  justify-content: flex-end;
-  padding: 16px;
+/* Diseño de Links */
+
+a:link.link1 {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-#scrollToTopBtn {
-  background-color: black;
-  border: none;
-  outline: none;
-  border-radius: 50%;
-  color: white;
-  cursor:pointer;
-  font-size: 16px;
-  line-height: 48px;
-  width: 48px;
+a:visited.link1 {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+a:hover.link1 {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
