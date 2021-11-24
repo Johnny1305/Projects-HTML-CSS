@@ -2,46 +2,49 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta author="Johnny1305">
+    <meta name="author" content="Johnny1305"> <!-- Autor -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Curr&iacute;culum Vitae</title>
+    <title>Mi Curr&iacute;culum Vitae</title> <!-- Título de la página -->
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico"> <!-- Icono de la página -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> <!-- Estilo de Fuente de los Legend -->
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet"> <!-- Estilo del h2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet"> <!-- Estilo del botón -->
   </head>
   <body>
-    <header>
+    <header> <!-- Comienzo de Cabecera -->
       <a name="inicio"/>
         <center>
-          <img src="cabecera.png" class="cabecera">
+          <img src="cabecera.png" class="cabecera" alt="Imagen de cabecera"/>
         </center>
-    </header>
+    </header> <!-- FIN DE CABECERA -->
     <br>
-      <div id="indice"/>
+      <div id="indice"/> <!-- Comienzo del Índice -->
         <fieldset>
           <legend id="subindice"><b>&Iacute;ndice</b></legend>
             <ul>
-              <li><b><a class="link1" href="#datosgenerales">Datos Generales</b></a></li>
-              <li><b><a class="link1" href="#informacion">Sobre Mi</b></a></li>
-              <li><b><a class="link1" href="#formacion">Formaci&oacute;n Acad&eacute;mica</b></a></li>
+              <li><span>📋</span>&nbsp&nbsp<b><a class="link1" href="#datosgenerales">Datos Generales</b></a></li>
+              <li><span>❓</span>&nbsp&nbsp&nbsp<b><a class="link1" href="#informacion">Sobre M&iacute;</b></a></li>
+              <li><span>🎓</span>&nbsp<b><a class="link1" href="#formacion">Formaci&oacute;n Acad&eacute;mica</b></a></li>
             </ul>
           </fieldset>
-      </div>
+      </div> <!-- FIN DEL ÍNDICE -->
       <br>
-      <div>
-        <fieldst id="titulo"> <!-- He puesto el "fieldset" mal escrito por si lo utilizo más tarde -->
+      <div> <!-- Comienzo del Título -->
+        <fieldst id="titulo"> <!-- He puesto el "fieldset" por si quiero ponerselo -->
           <center>
             <h2>
-              𝕵𝖔𝖓𝖆𝖙𝖍𝖆𝖓 𝕽𝖆𝖒𝖔𝖘 𝕭𝖊𝖑𝖑𝖎𝖉𝖔
+              Jonathan Ramos Bellido
             </h2>
           </center>
-        </fieldset>
+        </fieldset> <!-- No esta en el fichero CSS -->
         <br>
-    </div>
+    </div> <!-- FIN DEL TÍTULO -->
     <table>
       <td>
-        <div id="datos">
-          <fieldset id="datosgenerales" >
-            <legend id="legend">Datos Generales</legend>
+        <div id="datos"> <!-- Mis Datos Generales -->
+          <fieldset id="datosgenerales">
+            <legend id="legend">📋&nbsp;Datos Generales</legend>
             <dl>
               <dt><b>Nombre:</b></dt><dd>&nbsp; Jonathan Ramos Bellido</dd>
               <dt><b>D.N.I:</b></dt><dd>&nbsp; 48192722 V</dd>
@@ -54,18 +57,18 @@
               <dt><b>Email:</b></dt><dd>&nbsp; jonathan.ramos.business@gmail.com</dd>
             </dl>
           </fieldset>
-        </div>
+        </div> <!-- FIN DE MIS DATOS GENERALES -->
       </td>
-      <td id="tabla2">
+      <td id="tabla2"> <!-- Mi foto -->
         <div id="principal">
-          <img src="foto.jpg" id="mifoto"/>
-        </div>
+          <img src="foto.jpg" id="mifoto"alt="Jonathan Ramos Bellido"/>
+        </div> <!-- FIN DE LA FOTO -->
       </td>
   </table>
     <br>
-    <div id="general">
+    <div id="general"> <!-- Sobre mí -->
       <fieldset id="informacion">
-        <legend id="legend">Sobre M&iacute;</legend>
+        <legend id="legend">❓&nbsp;Sobre M&iacute;</legend>
           <p>Como recién graduado, me encantaría poder entrar a formar parte de una empresa en la que poder
           aplicar todos mis conocimientos y, al mismo tiempo, que me permita desarrollarme profesionalmente.</p>
           <p>Gracias a mi formación especializada, considero que puedo aportar valor y seguir desarrollándome
@@ -76,11 +79,11 @@
           <p>Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy detallista y
             autodidacta cada día, nunca dejo de aprender y tengo un especial don de gentes.</p>
       </fieldset>
-    </div>
+    </div> <!-- FIN DE SOBRE MÍ -->
     <br>
-    <div id="general">
+    <div id="general"> <!-- Todas las formaciones académicas que tengo o que estoy estudiando-->
       <fieldset>
-        <legend id="legend">Formaci&oacute;n Acad&eacute;mica</legend>
+        <legend id="legend">🎓&nbsp;Formaci&oacute;n Acad&eacute;mica</legend>
         <ul id="formacion">
           <li><b>Estudios B&aacute;sicos</b></li>
             <ul>
@@ -92,19 +95,22 @@
               <li>Instituto "I.E.S Don Jos&eacute; Jurado Espada" El Rubio. 2016 - 2020</li>
             </ul>
             <br>
-            <li><b>Grado Medio Sistemas Microinform&aacute;ticos y Redes</b></li>
+            <li><b>C.F.G.M Sistemas Microinform&aacute;ticos y Redes</b></li>
               <ul>
                 <li>Instituto "I.E.S Luis V&eacute;lez de Guevara" &Eacute;cija. 2020 - 2022</li>
               </ul>
         </ul>
       </fieldset>
-    </div>
+    </div> <!-- FIN DE LA FORMACIÓN ACADÉMICA -->
     <br>
     <br>
     <footer>
       <center>
-        <a class="botonpersonalizado" href="#inicio">Ir a Inicio</a>
+        <a class="btn btn3" href="#inicio">Ir&nbsp; a&nbsp; Inicio</a> <!-- Esta parte es el boton para ir al Inicio -->
+        <br>
+        <p class="fin">&copy; 2021 Jonathan Ramos Bellido</p> <!-- El copyright, para hacerlo original -->
       </center>
     </footer>
+
   </body>
 </html>
