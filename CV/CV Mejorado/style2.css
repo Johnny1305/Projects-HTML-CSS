@@ -1,0 +1,227 @@
+
+/* Diseño de la Foto */
+
+#mifoto {
+  width: 210px;
+  border:3px solid #FF0000;
+  border-radius: 10px;
+
+
+}
+
+/*Diseño de Mi Nombre */
+
+h2 {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 70px;
+  font-family: 'Road Rage', cursive;
+}
+
+
+/* Diseño del Título */
+
+.titulo {
+  font-size: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  border: 3px solid;
+  border-color: grey;
+  width: 700px;
+  border-radius: 10px;
+  padding: 10px;
+  }
+
+/* Diseño del Cuerpo del Proyecto */
+
+body {
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 2100px 1000px;
+
+}
+
+/* Diseño de los fieldset */
+
+fieldset {
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: grey;
+}
+
+/* Diseño de los Datos */
+
+#datos {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  align-items: center;
+
+}
+
+table {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Diseños de los Legend */
+
+#legend {
+  background-color: ;
+  border: 3px solid;
+  border-color: grey;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Animacion Btn1 */
+
+.btn1{
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid grey;
+  padding: 14px 15px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 2s all ease;
+}
+
+.btn1:before{
+  background: #000000;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 2s ease;
+}
+
+.btn1:before{
+width: 100%;
+height: 0%;
+transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn1:hover:before{
+height: 380%;
+}
+
+/* Animacion Btn2 */
+
+.btn2{
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid grey;
+  padding: 14px 15px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 2s all ease;
+}
+
+.btn2:before{
+  background: #000000;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 2s ease;
+}
+
+.btn2:before{
+width: 100%;
+height: 0%;
+transform: translate(-50%,-50%) rotate(135deg);
+}
+.btn2:hover:before{
+height: 380%;
+}
+
+/* Animacion Btn3 */
+
+.btn3{
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid grey;
+  padding: 14px 15px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 3s all ease;
+}
+
+.btn3:before{
+  background: #000000;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 2s ease;
+}
+
+.btn3:before{
+width: 100%;
+height: 0%;
+transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn3:hover:before{
+height: 380%;
+}
+
+/* Diseño del EsterEgg */
+
+a:link.link2 {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited.link2 {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover.link2 {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
