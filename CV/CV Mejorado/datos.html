@@ -1,5 +1,61 @@
-<script>
-<!--
-document.write(unescape("%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22es%22%20dir%3D%22ltr%22%3E%0A%20%20%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22author%22%20content%3D%22Johnny1305%22%3E%20%3C%21--%20Autor%20--%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Ctitle%3EDatos%20Generales%3C/title%3E%20%3C%21--%20T%EDtulo%20de%20la%20p%E1gina%20--%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22styledatos.css%22%3E%0A%20%20%20%20%3Clink%20rel%3D%22shortcut%20icon%22%20href%3D%22favicon.ico%22%3E%20%3C%21--%20Icono%20de%20la%20p%E1gina%20--%3E%0A%20%20%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DBebas+Neue%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E%20%3C%21--%20Estilo%20de%20Fuente%20de%20los%20Legend%20--%3E%0A%20%20%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DRoad+Rage%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E%20%3C%21--%20Estilo%20del%20h2%20--%3E%0A%20%20%20%20%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DBarlow+Condensed%3Awght@100%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E%20%3C%21--%20Estilo%20del%20bot%F3n%20--%3E%0A%20%20%20%20%3C%21--%20Desabilitar%20la%20tecla%20F12%20--%3E%0A%20%20%20%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20%20%20%20%20%20document.onkeydown%20%3D%20function%28%29%7Breturn%20false%7D%3B%0A%20%20%20%20%3C/script%3E%0A%20%20%20%20%3C%21--%20Desabilitar%20la%20tecla%20F12%20--%3E%0A%20%20%3C/head%3E%0A%20%20%20%20%3Cdiv%20id%3Dtitulocapa%3E%0A%20%20%20%20%20%20%3Ccenter%3E%0A%20%20%20%20%20%20%20%20%3Ch1%20class%3D%22titulo%22%3E%uD83D%uDCCB%26nbsp%3BDatos%20Generales%3C/h1%3E%0A%20%20%20%20%20%20%3C/center%3E%0A%20%20%20%20%3C/div%3E%0A%20%20%20%20%3Ctable%3E%0A%20%20%20%20%20%20%3Ctd%3E%0A%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22datos%22%3E%20%3C%21--%20Mis%20Datos%20Generales%20--%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cfieldset%20id%3D%22datosgenerales%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdl%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3ENombre%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20Jonathan%20Ramos%20Bellido%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3ED.N.I%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%2048192722%20V%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3EFecha%20de%20Nacimiento%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%2013/05/2004%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3EDomicilio%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20C/La%20Hoz%2C%2048%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3ELocalidad%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20El%20Rubio%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3EProvincia%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20Sevilla%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3EC%26oacute%3Bdigo%20Postal%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%2042568%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3ETel%26eacute%3Bfono%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20+34%20657%2030%2079%2045%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdt%3E%3Cb%3EEmail%3A%3C/b%3E%3C/dt%3E%3Cdd%3E%26nbsp%3B%20jonathan.ramos.business@gmail.com%3C/dd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/dl%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/fieldset%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%3C%21--%20FIN%20DE%20MIS%20DATOS%20GENERALES%20--%3E%0A%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%3C/td%3E%0A%20%20%20%20%3C/table%3E%0A%20%20%20%20%3Ccenter%3E%0A%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%3Ca%20class%3D%22btn%20btn3%22%20href%3D%22index2.html%22%3EVolver%20a%20Inicio%3C/a%3E%0A%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/center%3E%0A%20%20%20%20%3Cfooter%3E%0A%20%20%20%20%20%20%3Ccenter%3E%0A%20%20%20%20%20%20%20%20%3Cp%20class%3D%22fin%22%3E%26copy%3B%26nbsp%3B2021%20Jonathan%20Ramos%20Bellido%3C/p%3E%20%3C%21--%20El%20copyright%2C%20para%20hacerlo%20original%20--%3E%0A%20%20%20%20%20%20%3C/center%3E%0A%20%20%20%20%3C/footer%3E%0A%20%20%20%20%3C%21--%20Desabilitar%20el%20click%20derecho%20--%3E%0A%20%20%20%20%3Cscript%20type%3D%27text/javascript%27%3E%0A%20%20%09%20%20%20document.oncontextmenu%20%3D%20function%28%29%7Breturn%20false%7D%0A%20%20%20%20%3C/script%3E%0A%20%20%20%20%3C%21--%20Desabilitar%20el%20click%20derecho%20--%3E%0A%20%20%3C/body%3E%0A%3C/html%3E%0A"));
-//-->
-</script>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Johnny1305"> <!-- Autor -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Generales</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styledatos.css">
+    <link rel="shortcut icon" href="favicon.ico"> <!-- Icono de la página -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> <!-- Estilo de Fuente de los Legend -->
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet"> <!-- Estilo del h2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet"> <!-- Estilo del botón -->
+    <!-- Desabilitar la tecla F12 -->
+    <script type="text/javascript">
+      document.onkeydown = function(){return false};
+    </script>
+    <!-- Desabilitar la tecla F12 -->
+  </head>
+    <div id=titulocapa>
+      <center>
+        <h1 class="titulo">📋&nbsp;Datos Generales</h1>
+      </center>
+    </div>
+    <table>
+      <td>
+        <tr>
+          <div id="datos"> <!-- Mis Datos Generales -->
+            <fieldset id="datosgenerales">
+              <dl>
+                <dt><b>Nombre:</b></dt><dd>&nbsp; Jonathan Ramos Bellido</dd>
+                <dt><b>D.N.I:</b></dt><dd>&nbsp; 48192722 V</dd>
+                <dt><b>Fecha de Nacimiento:</b></dt><dd>&nbsp; 13/05/2004</dd>
+                <dt><b>Domicilio:</b></dt><dd>&nbsp; C/La Hoz, 48</dd>
+                <dt><b>Localidad:</b></dt><dd>&nbsp; El Rubio</dd>
+                <dt><b>Provincia:</b></dt><dd>&nbsp; Sevilla</dd>
+                <dt><b>C&oacute;digo Postal:</b></dt><dd>&nbsp; 42568</dd>
+                <dt><b>Tel&eacute;fono:</b></dt><dd>&nbsp; +34 657 30 79 45</dd>
+                <dt><b>Email:</b></dt><dd>&nbsp; jonathan.ramos.business@gmail.com</dd>
+              </dl>
+            </fieldset>
+          </div> <!-- FIN DE MIS DATOS GENERALES -->
+        </tr>
+      </td>
+    </table>
+    <center>
+      <div>
+        <a class="btn btn3" href="index2.html">Volver a Inicio</a>
+      </div>
+    </center>
+    <footer>
+      <center>
+        <p class="fin">&copy;&nbsp;2021 Jonathan Ramos Bellido</p> <!-- El copyright, para hacerlo original -->
+      </center>
+    </footer>
+    <!-- Desabilitar el click derecho -->
+    <script type='text/javascript'>
+  	   document.oncontextmenu = function(){return false}
+    </script>
+    <!-- Desabilitar el click derecho -->
+  </body>
+</html>
