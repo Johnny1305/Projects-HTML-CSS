@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Johnny1305"> <!-- Autor -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			EJERCICIO 13
+		</title>
+		<style>
+			legend { color:red;}
+			label {b}
+		</style>
+	</head>
+
+	<body>
+		<form method="post">
+		<fieldset style="width:350px">
+
+		<legend>
+			<b>Registro
+		</legend>
+
+			<label for="textNombre">
+				Nombre:
+			</label><br>
+			<input type="text"
+				id="textNombre" name="nombre" maxlength="50"
+				size="30" autofocus required
+				placeholder="Indique su nombre" />
+			<br>
+			<br>
+			<label for="textApellidos">
+				Apellidos:
+			</label><br>
+			<input type="text"
+				id="textApellidos" name="apellidos" maxlength="50"
+				size="50" autofocus required
+				placeholder="Indique sus dos apellidos"/>
+			<br>
+			<br>
+			<label for="emailUsuario">
+				Correo Electrónico:
+			</label><br>
+			<input type="email"
+				id="emailUsuario" name="usremail" maxlength="70"
+				size="40" autofocus required
+				placeholder="Indique su correo electr&oacute;nico">
+			<br>
+			<br>
+			<label for="sexo">
+				Sexo:
+			</label><br>
+			<select id="sexo" name="sexo">
+				<option value=""></option>
+				<option value="hombre">Hombre</option>
+				<option value="mujer">Mujer</option>
+				<option value="Prefiero no decirlo">Prefiero no decirlo</option>
+			</select>
+			<br>
+			<br>
+			<label for="fechanacimiento">Indique su Fecha de Nacimiento</label>
+			<br>
+			<input type="date" id="fecha" name="fecha de nacimiento"
+				min="1-01-01" max="2030-12-31" autofocus required />
+			<br>
+			<br>
+			<label for="telusuario">
+				Indique su n&uacute;mero de tel&eacute;fono</label><br>
+			<input type="text" id="telusu" name="telefono"
+				maxlength="9" required />
+			<br>
+			<br>
+			<label for="url">
+				Ponga su sitio web si dispone de una
+			</label>
+			<input type="url" id="url" name="sitoweb"
+				size="50" autofocus required
+				placeholder="Indique su sitio web"/>
+			<br>
+			<br>
+			<label for="archivo">Seleccione una imagen:</label><br>
+			<input type="file" id="archivo" name="imagen" />
+			<br>
+			<br>
+			<fieldset>
+			<legend>
+				Crea un Usuario
+			</legend>
+				<br>
+				<label for="textUsuario">
+					Usuario
+				</label><br>
+				<input type="text"
+					id="textUsuario" name="usuario" maxlength="50"
+					size="30" autofocus required
+					placeholder="Indique su nombre de usuario" />
+				<br>
+				<br>
+				<label for="clave">
+					Contraseña:
+				</label><br>
+				<input type="password"
+					id="clave" name="contraseña" maxlength="50"
+					size="50" autofocus required
+					placeholder="Indique su contraseña"/>
+				<br>
+				<br>
+				<input type="checkbox" id="checkform"
+					name="aceptacion" value="S" />
+				<label for="checkform">He le&iacute;do y acepto las condiciones del contrato</label>
+				<br>
+				<br>
+			</fieldset>
+			<br>
+			<br>
+			<label for="observaciones">
+				Observaciones:
+			</label><br>
+			<textarea class="areadeobservaciones" name="obs" rows="10" cols="30" placeholder="Indique sus observaciones"></textarea>
+
+		<br>
+		<br>
+		<button type="submit">Enviar</button>
+		<input type="reset" value="Borrar Formulario" />
+		</fieldset>
+	</body>
+</html>
