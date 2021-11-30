@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Johnny1305"> <!-- Autor -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			EJERCICIO 8
+		</title>
+		<style>
+			table, th, td { border:1px solid black;
+				border-collapse:collapse; }
+			th, td { padding:5px; text.align:left ;}
+			thead { color:green;}
+			tbody { color:black;}
+			tfoot { color:red; }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption><b> Gastos Anuales</b></caption>
+
+			<thead>
+				<tr>
+					<th>Mes</th>
+					<th>Importe</th>
+					<th colspan="2">Desglose</th>
+				</tr>
+			</thead>
+				<tr>
+					<th rowspan="2">Enero</th>
+					<th rowspan="2">100&euro;</th>
+					<td>Tienda A</td><td>75&euro;</td>
+				</tr>
+				<tr>
+					<td>Tienda B</td><td>25&euro;</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Febrero</th>
+					<th rowspan="2">80&euro;</th>
+					<td>Tienda A</td><td>60&euro;</td>
+				</tr>
+				<tr>
+					<td>Tienda B</td><td>20&euro;</td>
+				</tr>
+			<tfoot>
+				<tr>
+					<th>Total</th>
+					<th colspan="3">180&euro;</th>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
