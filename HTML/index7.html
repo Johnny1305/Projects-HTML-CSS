@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Johnny1305"> <!-- Autor -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			EJERCICIO 11
+		</title>
+	</head>
+
+	<body>
+		<form method="post">
+		<fieldset style="width:350px">
+
+		<legend>
+			Formulario de Registro
+		</legend>
+
+			<label for="textNombre">
+				Nombre:
+			</label><br>
+			<input type="text"
+				id="textNombre" name="nombre" maxlength="50"
+				size="30" autofocus required
+				placeholder="Indique su nombre" />
+			<br>
+
+			<label for="textApellidos">
+				Apellidos:
+			</label><br>
+			<input type="text"
+				id="textApellidos" name="apellidos" maxlength="50"
+				size="50" autofocus required
+				placeholder="Indique sus dos apellidos"/>
+			<br>
+
+			<label for="emailUsuario">
+				Correo Electrónico:
+			</label><br>
+			<input type="email"
+				id="emailUsuario" name="usremail" maxlength="70"
+				size="40" autofocus required
+				placeholder="Indique su correo electrónico"/>
+			<br>
+
+			<label for="clave">
+				Clave:
+			</label><br>
+			<input type="password"
+				id="clave" name="clave" maxlength="150"
+				size="40" required
+				placeholder="Introduce su contraseña"/>
+			<br>
+			<br>
+			<form method="post">
+			<fieldset>
+			<legend>
+				Tipo de Registro:
+			</legend>
+				<input type="radio"
+					id="radregG" name="registro" value="G"/>
+				<label for="radregG">
+					Registro Gratuito
+				</label>
+				<input type="radio"
+					id="pago" name="registro" value="G" checked/>
+				<label for="pago">
+					Registro de Pago
+				</label>
+			</fieldset>
+			<br>
+			<form method="post">
+			<fieldset>
+			<legend>
+				Contrato:
+			</legend>
+					Lea las condiciones del contrato e indique si las acepta:
+					<br>
+					<a href="https://www.pagepersonnel.es/advice/candidatos/desarrollo-profesional/tipos-de-contrato-y-condiciones-de-trabajo"
+						target="_blank">Condiciones del contrato</a><br>
+					<br>
+					<input type="checkbox"
+						id="checkcontrato" name="aceptacion" value="S"/>
+					<label for="checkcontrato">
+						He leído y acepto las condiciones del contarto
+					</label>
+			</fieldset>
+		<br>
+		<input type="button"
+			value="Registrar"/>
+		</fieldset>
+	</body>
+</html>
